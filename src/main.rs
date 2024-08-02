@@ -21,19 +21,19 @@
     //--------------------diffrent type let
     let spaces = "   ";
     let spaces = spaces.len();
-
+    
+    println!("spaces: {spaces}");
     //--------------------diffrent type let(type error)
     //--------------------add question(let -> let mut shadowing)
-    {
-        
-        let mut spaces = "   ";
-        println!("spaces: {spaces}");
-        // spaces = spaces.len();       //type error
-        spaces = "mut";
     
-        println!("spaces: {spaces}");
         
-    }
+    let mut spaces = "   ";
     println!("spaces: {spaces}");
+    // spaces = spaces.len();       //type error
+    spaces = "mut";
+    
+    println!("spaces: {spaces}");
+        
+    
 
 }
