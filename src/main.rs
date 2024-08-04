@@ -34,6 +34,14 @@
     
     println!("spaces: {spaces}");
         
-    
+    //---------------------tuple test
+    let a: (u32,u32,i32) = (0,0,1);
+
+    println!("{:?}",a);
+
+    //---------------------array test
+    let b = [2; 5];
+
+    println!("{:?}",b);
 
 }
